@@ -10,5 +10,5 @@ When generating a variable font with fontmake v1.9.1(and 1.9.0), I experience th
 - Only the `H` glyph is included in the example files
 
 #### Expected
-[Expected](https://scribbletone.github.io/share/whoa/WHOA-Debug-Expected-1.png)
-[Mangled](https://scribbletone.github.io/share/whoa/WHOA-Debug-Mangled-1.png)
+![Expected](https://scribbletone.github.io/share/whoa/WHOA-Debug-Expected-1.png)
+![Mangled](https://scribbletone.github.io/share/whoa/WHOA-Debug-Mangled-1.png)
