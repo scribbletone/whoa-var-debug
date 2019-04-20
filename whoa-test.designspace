@@ -1,0 +1,682 @@
+<?xml version="1.0" ?>
+<designspace format="3">
+  <axes>
+    <axis default="1000" maximum="1000" minimum="-1000" name="horizontal" tag="xpos">
+        <labelname xml:lang="en">Horizontal</labelname>
+    </axis>
+    <axis default="1000" maximum="1000" minimum="-1000" name="vertical" tag="ypos">
+        <labelname xml:lang="en">Vertical</labelname>
+    </axis>
+    <axis default="45" maximum="45" minimum="-45" name="rotation" tag="rota">
+        <labelname xml:lang="en">Rotation</labelname>
+    </axis>
+    <axis default="1000" maximum="1000" minimum="-1000" name="scale" tag="scal">
+        <labelname xml:lang="en">Scale</labelname>
+    </axis>
+  </axes>
+  <sources>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y0R0S0.ufo' name='X0Y0R0S0'>
+      <lib copy="1"/>
+      <info copy="1"/>
+      <kerning copy="1"/>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y0R0S1.ufo' name='X0Y0R0S1'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y0R0S2.ufo' name='X0Y0R0S2'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y0R1S0.ufo' name='X0Y0R1S0'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y0R1S1.ufo' name='X0Y0R1S1'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y0R1S2.ufo' name='X0Y0R1S2'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y0R2S0.ufo' name='X0Y0R2S0'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y0R2S1.ufo' name='X0Y0R2S1'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y0R2S2.ufo' name='X0Y0R2S2'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y1R0S0.ufo' name='X0Y1R0S0'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y1R0S1.ufo' name='X0Y1R0S1'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y1R0S2.ufo' name='X0Y1R0S2'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y1R1S0.ufo' name='X0Y1R1S0'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y1R1S1.ufo' name='X0Y1R1S1'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y1R1S2.ufo' name='X0Y1R1S2'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y1R2S0.ufo' name='X0Y1R2S0'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y1R2S1.ufo' name='X0Y1R2S1'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y1R2S2.ufo' name='X0Y1R2S2'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y2R0S0.ufo' name='X0Y2R0S0'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y2R0S1.ufo' name='X0Y2R0S1'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y2R0S2.ufo' name='X0Y2R0S2'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y2R1S0.ufo' name='X0Y2R1S0'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y2R1S1.ufo' name='X0Y2R1S1'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y2R1S2.ufo' name='X0Y2R1S2'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y2R2S0.ufo' name='X0Y2R2S0'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y2R2S1.ufo' name='X0Y2R2S1'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X0Y2R2S2.ufo' name='X0Y2R2S2'>
+      <location>
+        <dimension name='horizontal' xvalue='-1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y0R0S0.ufo' name='X1Y0R0S0'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y0R0S1.ufo' name='X1Y0R0S1'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y0R0S2.ufo' name='X1Y0R0S2'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y0R1S0.ufo' name='X1Y0R1S0'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y0R1S1.ufo' name='X1Y0R1S1'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y0R1S2.ufo' name='X1Y0R1S2'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y0R2S0.ufo' name='X1Y0R2S0'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y0R2S1.ufo' name='X1Y0R2S1'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y0R2S2.ufo' name='X1Y0R2S2'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y1R0S0.ufo' name='X1Y1R0S0'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y1R0S1.ufo' name='X1Y1R0S1'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y1R0S2.ufo' name='X1Y1R0S2'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y1R1S0.ufo' name='X1Y1R1S0'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-Minimum.ufo' name='Minimum'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y1R1S2.ufo' name='X1Y1R1S2'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y1R2S0.ufo' name='X1Y1R2S0'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y1R2S1.ufo' name='X1Y1R2S1'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y1R2S2.ufo' name='X1Y1R2S2'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y2R0S0.ufo' name='X1Y2R0S0'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y2R0S1.ufo' name='X1Y2R0S1'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y2R0S2.ufo' name='X1Y2R0S2'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y2R1S0.ufo' name='X1Y2R1S0'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y2R1S1.ufo' name='X1Y2R1S1'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y2R1S2.ufo' name='X1Y2R1S2'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y2R2S0.ufo' name='X1Y2R2S0'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y2R2S1.ufo' name='X1Y2R2S1'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X1Y2R2S2.ufo' name='X1Y2R2S2'>
+      <location>
+        <dimension name='horizontal' xvalue='0.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y0R0S0.ufo' name='X2Y0R0S0'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y0R0S1.ufo' name='X2Y0R0S1'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y0R0S2.ufo' name='X2Y0R0S2'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y0R1S0.ufo' name='X2Y0R1S0'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y0R1S1.ufo' name='X2Y0R1S1'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y0R1S2.ufo' name='X2Y0R1S2'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y0R2S0.ufo' name='X2Y0R2S0'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y0R2S1.ufo' name='X2Y0R2S1'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y0R2S2.ufo' name='X2Y0R2S2'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='-1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y1R0S0.ufo' name='X2Y1R0S0'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y1R0S1.ufo' name='X2Y1R0S1'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y1R0S2.ufo' name='X2Y1R0S2'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y1R1S0.ufo' name='X2Y1R1S0'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y1R1S1.ufo' name='X2Y1R1S1'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y1R1S2.ufo' name='X2Y1R1S2'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y1R2S0.ufo' name='X2Y1R2S0'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y1R2S1.ufo' name='X2Y1R2S1'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y1R2S2.ufo' name='X2Y1R2S2'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='0.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y2R0S0.ufo' name='X2Y2R0S0'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y2R0S1.ufo' name='X2Y2R0S1'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y2R0S2.ufo' name='X2Y2R0S2'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='-45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y2R1S0.ufo' name='X2Y2R1S0'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y2R1S1.ufo' name='X2Y2R1S1'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y2R1S2.ufo' name='X2Y2R1S2'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='0.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y2R2S0.ufo' name='X2Y2R2S0'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='-1000.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y2R2S1.ufo' name='X2Y2R2S1'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='0.0'/>
+      </location>
+    </source>
+    <source familyname='WHOA-Test' filename='./sources/WHOA-Test-X2Y2R2S2.ufo' name='X2Y2R2S2'>
+      <location>
+        <dimension name='horizontal' xvalue='1000.0'/>
+        <dimension name='vertical' xvalue='1000.0'/>
+        <dimension name='rotation' xvalue='45.0'/>
+        <dimension name='scale' xvalue='1000.0'/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="WHOA Spine Test 2" filename="./instances/WHOASpineTest2.ufo" stylename="Minimum">
+      <info />
+      <kerning />
+      <location>
+        <dimension name="horizontal" xvalue="0"/>
+        <dimension name="vertical" xvalue="0"/>
+        <dimension name="rotation" xvalue="0"/>
+        <dimension name="scale" xvalue="0"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>
